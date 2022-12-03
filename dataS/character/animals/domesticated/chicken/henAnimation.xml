@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<animation>
+    <states>
+        <state id="walk">
+            <animation id="walk1" clipLeft="walkFwdLSource" clipRight="walkFwdRSource" rotation="65" speed="0.4" distance="0.43" >
+                <trigger type="sound" name="walk" t="0.01" />
+                <trigger type="sound" name="walk" t="0.5" />
+            </animation>
+            <animation id="walk2" clipLeft="walkFwdL_grazeSource" clipRight="walkFwdR_grazeSource" rotation="65"  speed="0.1" distance="0.66" >
+                <trigger type="sound" name="walk" t="0.01" />
+                <trigger type="sound" name="walk" t="0.25" />
+                <trigger type="sound" name="walk" t="0.5" />
+                <trigger type="sound" name="walk" t="0.75" />
+            </animation>
+            <animation id="walk3" clipLeft="trotFwdLSource" clipRight="trotFwdRSource" rotation="65" speed="2.5" distance="1.519" >
+                <trigger type="sound" name="walk" t="0.01" />
+                <trigger type="sound" name="walk" t="0.3" />
+                <trigger type="sound" name="walk" t="0.6" />
+                <trigger type="sound" name="walk" t="0.9" />
+                <trigger type="sound" name="walk" t="1.2" />
+                <trigger type="sound" name="walk" t="1.5" />
+            </animation>
+            <animation id="walk4" clipLeft="runFwdLSource" clipRight="runFwdRSource" rotation="35" speed="6" distance="2" >
+                <trigger type="sound" name="walk" t="0.01" />
+                <trigger type="sound" name="walk" t="0.1" />
+                <trigger type="sound" name="walk" t="0.2" />
+                <trigger type="sound" name="walk" t="0.3" />
+                <trigger type="sound" name="walk" t="0.5" />
+                <trigger type="sound" name="walk" t="0.6" />
+                <trigger type="sound" name="walk" t="0.7" />
+                <trigger type="sound" name="walk" t="0.8" />
+                <trigger type="sound" name="walk" t="0.9" />
+                <trigger type="sound" name="walk" t="1.0" />
+                <trigger type="sound" name="walk" t="1.2" />
+                <trigger type="sound" name="walk" t="1.3" />
+                <trigger type="sound" name="walk" t="1.4" />
+                <trigger type="sound" name="walk" t="1.5" />
+                <trigger type="sound" name="walk" t="1.6" />
+                <trigger type="sound" name="walk" t="1.7" />
+                <trigger type="sound" name="walk" t="1.8" />
+                <trigger type="sound" name="walk" t="1.9" />
+            </animation>
+        </state>
+
+        <state id="run">
+            <animation id="run1" clipLeft="runFwdLSource" clipRight="runFwdRSource" rotation="35" speed="6" distance="2" >
+                <trigger type="sound" name="run" t="0.01" />
+                <trigger type="sound" name="run" t="0.11" />
+                <trigger type="sound" name="run" t="0.22" />
+                <trigger type="sound" name="run" t="0.3" />
+                <trigger type="sound" name="run" t="0.42" />
+                <trigger type="sound" name="run" t="0.49" />
+            </animation>
+        </state>
+
+        <state id="idle">
+            <animation id="idle1" clip="idle1Source" distance="0" speed="1.0" rotation="0"/>
+            <animation id="idle2" clip="digSource" distance="0" speed="1.0" rotation="0"/>
+        </state>
+
+        <state id="idleTransition">
+            <animation id="idleTransition" clip="idle1Source" distance="0" speed="1.0" rotation="0"/>
+        </state>
+
+        <state id="graze">
+            <animation id="graze1" clip="grazeSource" distance="0"/>
+            <animation id="graze2" clip="digSource" distance="0"/>
+        </state>
+
+        <state id="sleep">
+            <animation id="sleep1" clip="sleepSideLSource" speed="1.0" distance="0"/>
+            <animation id="sleep2" clip="sleepSideRSource" speed="1.0" distance="0"/>
+            <animation id="sleep3" clip="sleepBellyMSource" speed="1.0" distance="0"/>
+        </state>
+
+        <state id="rest">
+            <animation id="rest1" clip="restBellyMSource" speed="1.0" distance="0"/>
+            <animation id="rest2" clip="preenLSource" speed="1.0" distance="0"/>
+            <animation id="rest3" clip="preenRSource" speed="1.0" distance="0"/>
+        </state>
+
+        <state id="chew">
+            <animation id="chew1" clip="digSource" weight="1" speed="1.0" distance="0"/>
+        </state>
+
+        <state id="turnLeft">
+            <animation id="turnLeft1" clip="idleTurn45LSource" rotation="45" distance="0"/>
+            <animation id="turnLeft2" clip="idleTurn90LSource" rotation="90" distance="0"/>
+            <animation id="turnLeft3" clip="idleTurn135LSource" rotation="135" distance="0"/>
+            <animation id="turnLeft4" clip="idleTurn180LSource" rotation="180" distance="0"/>
+        </state>
+
+        <state id="turnRight">
+            <animation id="turnRight1" clip="idleTurn45RSource" rotation="45" distance="0"/>
+            <animation id="turnRight2" clip="idleTurn90RSource" rotation="90" distance="0"/>
+            <animation id="turnRight3" clip="idleTurn135RSource" rotation="135" distance="0"/>
+            <animation id="turnRight4" clip="idleTurn180RSource" rotation="180" distance="0"/>
+        </state>
+
+    </states>
+
+    <transitions defaultBlendTime="750">
+
+        <!-- leaning down to graze and going up -->
+        <transition animationIdFrom="idleTransition" animationIdTo="graze1" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="graze1" animationIdTo="idleTransition" clip="graze_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="idle1" animationIdTo="graze1" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="graze1" animationIdTo="idle1" clip="graze_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="chew1" animationIdTo="graze1" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="graze1" animationIdTo="chew1" clip="graze_to_idleSource" targetTime="0" />
+
+
+        <!-- going to sleep and waking up -->
+        <transition animationIdFrom="idleTransition" animationIdTo="sleep1" clip="idle_to_sleepSideLSource" targetTime="0" />
+        <transition animationIdFrom="idleTransition" animationIdTo="sleep2" clip="idle_to_sleepSideRSource" targetTime="0" />
+        <transition animationIdFrom="idleTransition" animationIdTo="sleep3" clip="idle_to_sleepBellyMSource" targetTime="0" />
+
+        <transition animationIdFrom="sleep1" animationIdTo="idleTransition" clip="sleepSideL_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="sleep2" animationIdTo="idleTransition" clip="sleepSideR_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="sleep3" animationIdTo="idleTransition" clip="sleepBellyM_to_idleSource" targetTime="0" />
+
+
+        <!-- going down to rest and standing up -->
+        <transition animationIdFrom="rest1" animationIdTo="idle1" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="idle1" animationIdTo="rest1" clip="idle_to_sleepBellyMSource" targetTime="0" />
+        <transition animationIdFrom="rest2" animationIdTo="idle1" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="idle1" animationIdTo="rest2" clip="idle_to_sleepBellyMSource" targetTime="0" />
+        <transition animationIdFrom="rest3" animationIdTo="idle1" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="idle1" animationIdTo="rest3" clip="idle_to_sleepBellyMSource" targetTime="0" />
+
+        <transition animationIdFrom="rest1" animationIdTo="idle2" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="idle2" animationIdTo="rest1" clip="idle_to_sleepBellyMSource" targetTime="0" />
+        <transition animationIdFrom="rest2" animationIdTo="idle2" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="idle2" animationIdTo="rest2" clip="idle_to_sleepBellyMSource" targetTime="0" />
+        <transition animationIdFrom="rest3" animationIdTo="idle2" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="idle2" animationIdTo="rest3" clip="idle_to_sleepBellyMSource" targetTime="0" />
+
+        <!-- starting a regular walk -->
+        <transition animationIdFrom="idle1" animationIdTo="walk1" blendTime="1000" targetTime="0" />
+        <transition animationIdFrom="walk1" animationIdTo="idle1" blendTime="1000" targetTime="0" />
+
+
+        <!-- starting a walk with head down -->
+        <transition animationIdFrom="idleTransition" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="idle1" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnLeft1" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnLeft2" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnLeft3" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnLeft4" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnRight1" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnRight2" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnRight3" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+        <transition animationIdFrom="turnRight4" animationIdTo="walk2" clip="idle_to_grazeSource" targetTime="0" />
+
+        <!-- starting a trot and stopping -->
+        <transition animationIdFrom="idleTransition" animationIdTo="walk3" sourceTime="1000" blendTime="500" targetTime="0" />
+        <transition animationIdFrom="idle1" animationIdTo="walk3" sourceTime="6666" blendTime="500" targetTime="0" />
+        <transition animationIdFrom="walk3" animationIdTo="idleTransition" sourceTime="500" blendTime="500" targetTime="0" />
+        <transition animationIdFrom="walk3" animationIdTo="idle1" sourceTime="500" blendTime="500" targetTime="0" />
+
+
+        <!-- starting a turn and finishing -->
+        <transition animationIdFrom="idleTransition" animationIdTo="turnLeft1" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="idleTransition" animationIdTo="turnLeft2" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="idleTransition" animationIdTo="turnLeft3" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="idleTransition" animationIdTo="turnLeft4" blendTime="100" targetTime="0"/>
+
+        <transition animationIdFrom="idleTransition" animationIdTo="turnRight1" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="idleTransition" animationIdTo="turnRight2" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="idleTransition" animationIdTo="turnRight3" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="idleTransition" animationIdTo="turnRight4" blendTime="100" targetTime="0"/>
+
+        <transition animationIdFrom="turnLeft1" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="turnLeft2" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="turnLeft3" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="turnLeft4" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+
+        <transition animationIdFrom="turnRight1" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="turnRight2" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="turnRight3" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+        <transition animationIdFrom="turnRight4" animationIdTo="idleTransition" blendTime="100" targetTime="0"/>
+
+
+        <!-- from rest to other clips through idleTransition -->
+        <transition animationIdFrom="rest1" animationIdTo="idleTransition" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="rest2" animationIdTo="idleTransition" clip="sleepBellyM_to_idleSource" targetTime="0" />
+        <transition animationIdFrom="rest3" animationIdTo="idleTransition" clip="sleepBellyM_to_idleSource" targetTime="0" />
+
+        <transition animationIdFrom="idleTransition" animationIdTo="rest1" clip="idle_to_sleepBellyMSource" targetTime="0" />
+        <transition animationIdFrom="idleTransition" animationIdTo="rest2" clip="idle_to_sleepBellyMSource" targetTime="0" />
+        <transition animationIdFrom="idleTransition" animationIdTo="rest3" clip="idle_to_sleepBellyMSource" targetTime="0" />
+
+    </transitions>
+
+</animation>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<constructionSoundSamples>
+
+    <tree file="$data/sounds/placeables/foliageBig.wav" supportsReverb="false" loops="1">
+        <volume indoor="0.5" outdoor="0.5" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </tree>
+
+    <sculpt file="$data/sounds/tools/fillTypes/gravelFillLoop.wav" supportsReverb="false">
+        <volume indoor="0.15" outdoor="0.15" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </sculpt>
+
+    <paint file="$data/sounds/tools/fillTypes/grassFillLoop1.wav" supportsReverb="false">
+        <volume indoor="0.2" outdoor="0.2" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </paint>
+
+    <foliage file="$data/sounds/tools/fillTypes/woodchipFillLoop.wav" supportsReverb="false">
+        <volume indoor="0.15" outdoor="0.15" />
+        <pitch indoor="0.8" outdoor="0.8" />
+    </foliage>
+
+</constructionSoundSamples>
+

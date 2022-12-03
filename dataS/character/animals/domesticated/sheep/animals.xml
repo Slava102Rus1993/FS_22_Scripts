@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<animalHusbandry>
+    <animals>
+        <!-- SHEEP_LANDRACE -->
+        <animal radius="1.2" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.755" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true">
+            <statesTimers idleMin="13333" idleMax="26666" sleepMin="120000" sleepMax="180000" restMin="18000" restMax="30000" grazeMin="11666" grazeMax="23332" chewMin="8000" chewMax="16000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="20000" />
+            <assets filename="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe.i3d" filenamePosed="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe_posed.i3d" animation="$dataS/character/animals/domesticated/sheep/animations/adult/sheepAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0">
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- SHEEP_STEINSCHAF-->
+        <animal radius="1.2" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.755" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true">
+            <statesTimers idleMin="13333" idleMax="26666" sleepMin="120000" sleepMax="180000" restMin="18000" restMax="30000" grazeMin="11666" grazeMax="23332" chewMin="8000" chewMax="16000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="20000" />
+            <assets filename="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe.i3d" filenamePosed="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe_posed.i3d" animation="$dataS/character/animals/domesticated/sheep/animations/adult/sheepAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0">
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- SHEEP_SWISS_MOUNTAIN -->
+        <animal radius="1.2" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.755" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true">
+            <statesTimers idleMin="13333" idleMax="26666" sleepMin="120000" sleepMax="180000" restMin="18000" restMax="30000" grazeMin="11666" grazeMax="23332" chewMin="8000" chewMax="16000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="20000" />
+            <assets filename="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe.i3d" filenamePosed="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe_posed.i3d" animation="$dataS/character/animals/domesticated/sheep/animations/adult/sheepAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0">
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- SHEEP_BLACK_WELSH -->
+        <animal radius="1.2" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.755" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true">
+            <statesTimers idleMin="13333" idleMax="26666" sleepMin="120000" sleepMax="180000" restMin="18000" restMax="30000" grazeMin="11666" grazeMax="23332" chewMin="8000" chewMax="16000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="20000" />
+            <assets filename="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe.i3d" filenamePosed="$dataS/character/animals/domesticated/sheep/ewe/sheepEwe_posed.i3d" animation="$dataS/character/animals/domesticated/sheep/animations/adult/sheepAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0">
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+    </animals>
+    <sound>
+       <soundGroup name="yell" volume="2.0" indoorVolume="0.3" range="50" innerRange="1">
+            <sample filename="$data/sounds/animals/sheep/sheep_01.wav" />
+            <sample filename="$data/sounds/animals/sheep/sheep_02.wav" />
+            <sample filename="$data/sounds/animals/sheep/sheep_03.wav" />
+            <sample filename="$data/sounds/animals/sheep/sheep_04.wav" />
+        </soundGroup>
+       <soundGroup name="eat" volume="0.1" indoorVolume="0.01" range="20" innerRange="1">
+            <sample filename="$data/sounds/animals/cow/cow_eat_loop.wav" />
+        </soundGroup>
+        <soundGroup name="walk" volume="1" indoorVolume="0.1" range="12" innerRange="0.4">
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_1.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_2.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_3.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_4.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_5.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_6.wav"/>
+        </soundGroup>
+    </sound>
+</animalHusbandry>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<player>
+    <filename>dataS/character/humans/npc/pedestrians/france/npcFR05_m.i3d</filename>
+
+    <character>
+        <thirdPerson
+            mesh="1"
+            skeleton="0"
+            animRootNode="2"
+            spine="0|0"
+            suspension="0|0|0"
+            leftHandNode="0|0|0|0|0|1|0|0|1"
+            rightHandNode="0|0|0|0|0|2|0|0|1"
+            headNode="0|0|0|0|0|0|0"
+        />
+    </character>
+
+    <ikChains>
+        <ikChain id="rightFoot" target="0" targetOffset="0 0.092 0.065" alignToTarget="true" isDirtyOnLoad="true" positionThreshold="0.002">
+            <node index="0|0|2"    minRx="-2" maxRx="2" minRy="-30" maxRy="30" minRz="-30" maxRz="80" localLimits="true" />
+            <node index="0|0|2|0"  minRx="-2" maxRx="2" minRy="0"   maxRy="0"  minRz="-100" maxRz="0" localLimits="true" />
+            <node index="0|0|2|0|0" />
+        </ikChain>
+        <ikChain id="leftFoot" target="0" targetOffset="0 0.092 0.065" alignToTarget="true" isDirtyOnLoad="true">
+            <node index="0|0|1"     minRx="-2" maxRx="2" minRy="-30" maxRy="30" minRz="-120" maxRz="150" localLimits="true" />
+            <node index="0|0|1|0"   minRx="-2" maxRx="2" minRy="0"   maxRy="0"  minRz="-100" maxRz="0" localLimits="true" />
+            <node index="0|0|1|0|0" />
+        </ikChain>
+        <ikChain id="rightArm" target="0" targetOffset="0.068 0.024 -0.002" alignToTarget="true" isDirtyOnLoad="true" positionThreshold="0.001">
+            <node index="0|0|0|0|0|2|0"   minRx="-40" maxRx="40" minRy="-130" maxRy="30" minRz="-90" maxRz="-40" localLimits="true" />
+            <node index="0|0|0|0|0|2|0|0" minRx="-25" maxRx="25" minRy="-144" maxRy="3" minRz="0" maxRz="0" localLimits="true" />
+            <node index="0|0|0|0|0|2|0|0|1"  />
+
+            <pose id="narrowFingers" isDefaultPose="true">
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4"       rotation="118 143 -136" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4|0"     rotation="0 0 -12" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4|0|0"   rotation="0 0 -40" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3"       rotation="9 176 -115" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3|0"     rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3|0|0"   rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2"       rotation="9 176 -115" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2|0"     rotation="0 0 -60" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2|0|0"   rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1"       rotation="9 176 -115" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1|0"     rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1|0|0"   rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0"       rotation="-173 7 45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0|0"     rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0|0|0"   rotation="0 0 -45" />
+            </pose>
+            <pose id="wideFingers">
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4"       rotation="125 133 -129" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4|0"     rotation="0 0 -12" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4|0|0"   rotation="0 0 -23" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3"       rotation="-173 7 45" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3|0"     rotation="0 0 -20" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3|0|0"   rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2"       rotation="-174 7 40" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2|0"     rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2|0|0"   rotation="0 0 -40" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1"       rotation="-174 7 40" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1|0"     rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1|0|0"   rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0"       rotation="-174 8 35" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0|0"     rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0|0|0"   rotation="0 0 -20" />
+            </pose>
+            <pose id="flatFingers">
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4"       rotation="125 133 -129" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4|0"     rotation="0 0 -12" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|4|0|0"   rotation="0 0 -23" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3"       rotation="-176 9 25" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3|0"     rotation="0 0 0" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|3|0|0"   rotation="0 0 -15" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2"       rotation="-176 9 20" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2|0"     rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|2|0|0"   rotation="0 0 -15" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1"       rotation="-176 9 15" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1|0"     rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|1|0|0"   rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0"       rotation="-176 9 20" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0|0"     rotation="0 0 0" />
+                <rotationNode index="0|0|0|0|0|2|0|0|1|0|0|0"   rotation="0 0 0" />
+            </pose>
+        </ikChain>
+        <ikChain id="leftArm" target="0" targetOffset="-0.078 0.024 -0.005" alignToTarget="true" isDirtyOnLoad="true" positionThreshold="0.001">
+            <node index="0|0|0|0|0|1|0"   minRx="-40" maxRx="40" minRy="-130" maxRy="30" minRz="-90" maxRz="-40" localLimits="true" />
+            <node index="0|0|0|0|0|1|0|0" minRx="-25" maxRx="25" minRy="-144" maxRy="3" minRz="0" maxRz="0" localLimits="true" />
+            <node index="0|0|0|0|0|1|0|0|1"  />
+
+            <pose id="narrowFingers" isDefaultPose="true">
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4"       rotation="110 -30 -40" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4|0"     rotation="0 0 -12" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4|0|0"   rotation="0 0 -40" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3"       rotation="0 0 -65" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3|0"     rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3|0|0"   rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2"       rotation="0 0 -65" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2|0"     rotation="0 0 -60" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2|0|0"   rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1"       rotation="0 0 -65" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1|0"     rotation="0 0 -55" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1|0|0"   rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0"       rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0|0"     rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0|0|0"   rotation="0 0 -45" />
+            </pose>
+            <pose id="wideFingers">
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4"       rotation="115 -40 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4|0"     rotation="0 0 -12" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4|0|0"   rotation="0 0 -23" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3"       rotation="0 0 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3|0"     rotation="0 0 -20" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3|0|0"   rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2"       rotation="0 0 -40" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2|0"     rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2|0|0"   rotation="0 0 -40" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1"       rotation="0 0 -40" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1|0"     rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1|0|0"   rotation="0 0 -30" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0"       rotation="0 0 -35" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0|0"     rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0|0|0"   rotation="0 0 -20" />
+            </pose>
+            <pose id="flatFingers">
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4"       rotation="115 -40 -45" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4|0"     rotation="0 0 -12" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|4|0|0"   rotation="0 0 -23" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3"       rotation="0 0 -25" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3|0"     rotation="0 0 0" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|3|0|0"   rotation="0 0 -15" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2"       rotation="0 0 -20" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2|0"     rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|2|0|0"   rotation="0 0 -15" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1"       rotation="0 0 -15" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1|0"     rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|1|0|0"   rotation="0 0 -10" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0"       rotation="0 0 -20" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0|0"     rotation="0 0 0" />
+                <rotationNode index="0|0|0|0|0|1|0|0|1|0|0|0"   rotation="0 0 0" />
+            </pose>
+        </ikChain>
+        <ikChain id="spine" target="0" isDirtyOnLoad="true" >
+            <node index="0|0|0" />
+            <node index="0|0|0|0" />
+            <node index="0|0|0|0|0" />
+            <node index="0|0|0|0|0|0" />
+        </ikChain>
+    </ikChains>
+
+    <conditionalAnimation>
+        <item id="idle" >
+            <clips>
+                <clip clipName="idleSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="isUsingChainsawVertical" equal="false" />
+                    <condition parameter="isUsingChainsawHorizontal" equal="false" />
+                    <condition parameter="isCrouched" equal="false" />
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="inWater" equal="false" />
+                    <condition parameter="yawVelocity" between="-0.1, 0.1" />
+                    <condition parameter="absForwardVelocity" lower="0.1" />
+                </conditionGroup>
+            </conditions>
+        </item>
+    </conditionalAnimation>
+</player>

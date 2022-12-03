@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<soundMixer>
+    <gameState name="LOADING">
+        <audioGroup name="DEFAULT"     volume="0" />
+        <audioGroup name="VEHICLE"     volume="0" />
+        <audioGroup name="ENVIRONMENT" volume="0" />
+        <audioGroup name="RADIO"       volume="0" />
+        <audioGroup name="MENU_MUSIC"  volume="0" />
+        <audioGroup name="GUI"         volume="0" />
+    </gameState>
+    <gameState name="PAUSED">
+        <audioGroup name="DEFAULT"     volume="0" />
+        <audioGroup name="VEHICLE"     volume="0" />
+        <audioGroup name="ENVIRONMENT" volume="0" />
+        <audioGroup name="RADIO"       volume="0" />
+        <audioGroup name="MENU_MUSIC"  volume="0" />
+        <audioGroup name="GUI"         volume="1.80" />
+    </gameState>
+    <gameState name="PLAY">
+        <audioGroup name="DEFAULT"     volume="1" />
+        <audioGroup name="VEHICLE"     volume="0.30" />
+        <audioGroup name="ENVIRONMENT" volume="0.50" />
+        <audioGroup name="RADIO"       volume="0.60" />
+        <audioGroup name="MENU_MUSIC"  volume="0" />
+        <audioGroup name="GUI"         volume="1.80" />
+    </gameState>
+    <gameState name="MENU_MAIN">
+        <audioGroup name="DEFAULT"     volume="0" />
+        <audioGroup name="VEHICLE"     volume="0" />
+        <audioGroup name="ENVIRONMENT" volume="0" />
+        <audioGroup name="RADIO"       volume="0" />
+        <audioGroup name="MENU_MUSIC"  volume="1.00" />
+        <audioGroup name="GUI"         volume="1.80" />
+    </gameState>
+    <gameState name="MENU_INGAME">
+        <audioGroup name="DEFAULT"     volume="0" />
+        <audioGroup name="VEHICLE"     volume="0" />
+        <audioGroup name="ENVIRONMENT" volume="0" />
+        <audioGroup name="RADIO"       volume="0.10" />
+        <audioGroup name="MENU_MUSIC"  volume="0" />
+        <audioGroup name="GUI"         volume="1.80" />
+    </gameState>
+    <gameState name="MENU_SHOP">
+        <audioGroup name="DEFAULT"     volume="0" />
+        <audioGroup name="VEHICLE"     volume="0" />
+        <audioGroup name="ENVIRONMENT" volume="0" />
+        <audioGroup name="RADIO"       volume="0.10" />
+        <audioGroup name="MENU_MUSIC"  volume="0" />
+        <audioGroup name="GUI"         volume="1.80" />
+    </gameState>
+    <gameState name="MENU_SHOP_CONFIG">
+        <audioGroup name="DEFAULT"     volume="0" />
+        <audioGroup name="VEHICLE"     volume="0" />
+        <audioGroup name="ENVIRONMENT" volume="0" />
+        <audioGroup name="RADIO"       volume="0.10" />
+        <audioGroup name="MENU_MUSIC"  volume="0" />
+        <audioGroup name="GUI"         volume="1.80" />
+    </gameState>
+    <gameState name="MENU_ANIMAL_SHOP">
+        <audioGroup name="DEFAULT"     volume="0" />
+        <audioGroup name="VEHICLE"     volume="0" />
+        <audioGroup name="ENVIRONMENT" volume="0" />
+        <audioGroup name="RADIO"       volume="0.10" />
+        <audioGroup name="MENU_MUSIC"  volume="0" />
+        <audioGroup name="GUI"         volume="1.80" />
+    </gameState>
+</soundMixer>

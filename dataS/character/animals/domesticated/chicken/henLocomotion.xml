@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<locomotion>
+    <general suddenStopTime="400" />
+    <speed walk="1" run="30" walkRunThreshold="20" minimum="1" />
+    <wander circleDistance="1" circleRadius="1" jitter="10" />
+    <avoidance wallCircleRadius="7" wallCircleDistance="7" detectionDistance="7" maxAnimalForce="5" maxWallForce="8" />
+    <animation filename="henAnimation.xml" />
+</locomotion>

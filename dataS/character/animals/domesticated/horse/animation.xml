@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<animation>
+    <states>
+        <state id="walk">
+            <animation id="walk1" clipLeft="walkLeftSource" clipRight="walkRightSource" distance="1.3" speed="1" rotation="35" >
+                <trigger type="sound" name="walk" t="0.04" />
+                <trigger type="sound" name="walk" t="0.25" />
+                <trigger type="sound" name="walk" t="0.47" />
+                <trigger type="sound" name="walk" t="0.75" />
+            </animation>
+            <!--
+            <animation id="walk2" clipLeft="trotLeftSource" clipRight="trotRightSource" distance="1.8" speed="1.8" rotation="35" />
+            -->
+        </state>
+        <state id="run">
+            <animation id="run" clipLeft="canterLeftSource" clipRight="canterRightSource" distance="2.1" speed="3" rotation="35" />
+        </state>
+        <state id="idle">
+            <animation id="idle1" clip="weavingTailSource" distance="0"/>
+            <animation id="idle2" clip="idle01Source" distance="0"/>
+        </state>
+        <state id="idleTransition">
+            <animation id="idleTransition" clip="weavingTailSource" distance="0"/>
+        </state>
+        <state id="eat">
+            <animation id="eat" clip="eatIdleSource" distance="0"/>
+        </state>
+        <state id="drink">
+            <animation id="drink" clip="eatIdleSource" distance="0"/>
+        </state>
+        <state id="graze">
+            <animation id="graze" clip="eatIdleSource" distance="0"/>
+        </state>
+        <state id="sleep">
+            <animation id="sleep" clip="sleepingIdleSource" distance="0"/>
+        </state>
+        <state id="rest">
+            <animation id="idle1" clip="weavingTailSource" distance="0"/>
+        </state>
+        <state id="chew">
+            <animation id="chew" clip="scratchFurSource" distance="0"/>
+        </state>
+        <state id="turnLeft">
+            <animation id="turnLeft1" clip="inplaceLeft45degSource" rotation="45"/>
+            <animation id="turnLeft2" clip="inplaceLeft45degSource" rotation="90" speed="2.0"/>
+            <animation id="turnLeft3" clip="inplaceLeft45degSource" rotation="135" speed="3.0"/>
+            <animation id="turnLeft4" clip="inplaceLeft45degSource" rotation="190" speed="4.0"/>
+        </state>
+        <state id="turnRight">
+            <animation id="turnRight1" clip="inplaceRight45degSource" rotation="45"/>
+            <animation id="turnRight2" clip="inplaceRight45degSource" rotation="90" speed="2.0"/>
+            <animation id="turnRight3" clip="inplaceRight45degSource" rotation="135" speed="3.0"/>
+            <animation id="turnRight4" clip="inplaceRight45degSource" rotation="190" speed="4.0"/>
+        </state>
+    </states>
+    <transitions defaultBlendTime="1250">
+        <transition animationIdFrom="idleTransition" animationIdTo="eat" clip="standToEatSource" targetTime="0" />
+        <transition animationIdFrom="eat" animationIdTo="idleTransition" clip="eatToStandSource" targetTime="0" />
+
+        <transition animationIdFrom="idleTransition" animationIdTo="graze" clip="standToEatSource" targetTime="0" />
+        <transition animationIdFrom="idle1" animationIdTo="graze" clip="standToEatSource" targetTime="0" />
+        <transition animationIdFrom="idle2" animationIdTo="graze" clip="standToEatSource" targetTime="0" />
+        <transition animationIdFrom="graze" animationIdTo="idle1" clip="eatToStandSource" targetTime="0" />
+        <transition animationIdFrom="graze" animationIdTo="idle2" clip="eatToStandSource" targetTime="0" />
+        <transition animationIdFrom="graze" animationIdTo="idleTransition" clip="eatToStandSource" targetTime="0" />
+
+        <transition animationIdFrom="idleTransition" animationIdTo="sleep" clip="lyingDownSource" targetTime="0" />
+        <transition animationIdFrom="sleep" animationIdTo="idleTransition" clip="standingUpSource" targetTime="0" />
+        <!--
+        <transition animationIdFrom="idleTransition" animationIdTo="rest" clip="lyingDownSource" targetTime="0" />
+        <transition animationIdFrom="rest" animationIdTo="idleTransition" clip="standingUpSource" targetTime="0" />
+        -->
+        <transition animationIdFrom="turnLeft" animationIdTo="idleTransition" blendTime="1000" targetTime="1000" />
+        <transition animationIdFrom="turnRight" animationIdTo="idleTransition" blendTime="1000" targetTime="1000" />
+        <transition animationIdFrom="idleTransition" animationIdTo="turnLeft" blendTime="1000" targetTime="1000" />
+        <transition animationIdFrom="idleTransition" animationIdTo="turnRight" blendTime="1000" targetTime="1000" />
+    </transitions>
+</animation>
+
+<!--
+t_poseSource
+canterLeftSource
+canterRightSource
+eatIdleSource
+eatToStandSource
+gallopLeftSource
+gallopRightSource
+goHighSource
+idle01Source
+inplaceLeft45degSource
+inplaceRight45degSource
+jumpFlightSource
+jumpLandSource
+jumpUpSource
+lyingDownSource
+scratchFurSource
+sleepingIdleSource
+standingUpSource
+standToEatSource
+stopSource
+trotLeftSource
+trotRightSource
+walkBackLeftSource
+walkBackRightSource
+walkRightSource
+walkLeftSource
+weavingTailSource
+trotSource
+walkSource
+-->

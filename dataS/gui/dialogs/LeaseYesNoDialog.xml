@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="yesNoDialogBg" id="dialogElement" size="630px 285px">
+        <GuiElement type="animation" profile="dialogLoading"  id="iconLoadingElement" visible="false" />
+
+        <GuiElement type="bitmap" profile="dialogCircle" id="dialogCircle">
+            <GuiElement type="bitmap"    profile="dialogQuestion" id="iconQuestionElement" visible="false"/>
+        </GuiElement>
+
+        <GuiElement type="text" profile="dialogLeaseKey" position="-45px -140px" text="$l10n_shop_costsBase:" />
+        <GuiElement type="text" profile="dialogLeaseValue" position="120px -140px" id="costsBaseValue" format="accounting" />
+        <GuiElement type="text" profile="dialogLeaseKey" position="-45px -160px" text="$l10n_shop_costsPerDay:" />
+        <GuiElement type="text" profile="dialogLeaseValue" position="120px -160px" id="costsPerDayValue" format="accounting" />
+        <GuiElement type="text" profile="dialogLeaseKey" position="-45px -180px" text="$l10n_shop_costsPerOperatingHour:" />
+        <GuiElement type="text" profile="dialogLeaseValue" position="120px -180px" id="costsPerOperatingHourValue" format="accounting" />
+
+        <GuiElement type="text" profile="dialogTitle"         text="" id="dialogTitleElement" />
+        <GuiElement type="text" profile="dialogTextWithTitle" text=""  id="dialogTextElement" position="0px -220px" />
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonYes" text="$l10n_button_yes" onClick="onYes" id="yesButton" />
+            <GuiElement type="button" profile="buttonNo" text="$l10n_button_no" onClick="onNo" id="noButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

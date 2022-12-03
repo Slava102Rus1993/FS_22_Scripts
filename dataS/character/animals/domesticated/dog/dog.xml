@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<dog type="dog" maxDistanceToSpawn="10.0" randomSpawnRadius="0.0" >
+    <asset filename="dataS/character/animals/domesticated/dog/dog.i3d" skeletonNode="0" meshNode="1" playerInteractionTriggerNode="0|1" fetchAttachNode="0|0|2|0|0|0|0|0|0|2|0|0|0" >
+        <texture multi="true" tileU="2" tileV="2" mirrorV="false" />
+    </asset>
+    <steeringSystem wanderRange="5.0" collisionMask="32" swimOffset="-0.6"/>
+    <behavior>
+        <values>
+            <value name="doghouseProximity" value="5.0" />
+        </values>
+        <ranges>
+            <range name="feedDuration" min="4000" max="5000" />
+            <range name="wanderDuration" min="40000" max="50000" />
+            <range name="sniffDuration" min="4000" max="5000" />
+            <range name="wanderRestDuration" min="4000" max="5000" />
+            <range name="restDuration" min="4000" max="5000" />
+            <range name="sitDoghouseDuration" min="3000" max="5000" />
+            <range name="sleepDuration" min="10000" max="20000" />
+            <range name="followRange" min="3" max="5" />
+        </ranges>
+    </behavior>
+    <animation>
+        <states>
+            <state id="walk">
+                <animation id="walk1" clipLeft="walkLeftSource" clipRight="walkRightSource" rotation="85" distance="0.9">
+                    <trigger type="sound" name="walk" t="0.01" />
+                    <trigger type="sound" name="walk" t="0.2" />
+                    <trigger type="sound" name="walk" t="0.5" />
+                    <trigger type="sound" name="walk" t="0.72" />
+                </animation>
+            </state>
+            <state id="run">
+                <animation id="run1" clipLeft="runLeftSource" clipRight="runRightSource" rotation="30" speed="1.0" distance="2.25">
+                    <trigger type="sound" name="run" t="0.01" />
+                    <trigger type="sound" name="run" t="0.1" />
+                    <trigger type="sound" name="run" t="0.44" />
+                    <trigger type="sound" name="run" t="0.52" />
+                    <trigger type="sound" name="run" t="0.99" />
+                </animation>
+            </state>
+            <state id="swim">
+                <animation id="swim1" clipLeft="swimLeftSource" clipRight="swimRightSource" rotation="45" speed="1.0" distance="1.5">
+                    <trigger type="sound" name="swim" t="0.0" />
+                    <trigger type="sound" name="swim" t="0.25" />
+                    <trigger type="sound" name="swim" t="0.5" />
+                    <trigger type="sound" name="swim" t="0.75" />
+                </animation>
+            </state>
+            <state id="sit">
+                <animation id="sit1" clip="sitSource" speed="1.0" />
+            </state>
+            <state id="sniff">
+                <animation id="sniff1" clip="sniffSource" speed="1.0" />
+            </state>
+            <state id="eat">
+                <animation id="eat1" clip="eatSource" speed="1.0" />
+            </state>
+            <state id="happy">
+                <animation id="happy1" clip="happySource" speed="1.0" />
+            </state>
+            <state id="yawn">
+                <animation id="yawn1" clip="yawnSource" speed="1.0" />
+            </state>
+            <state id="sleep">
+                <animation id="sleep1" clip="sleepSource" speed="1.0" />
+            </state>
+            <state id="roll">
+                <animation id="roll1" clip="rollSource" speed="1.0" />
+            </state>
+        </states>
+        <transitions defaultBlendTime="750">
+        </transitions>
+    </animation>
+    <sound>
+        <soundGroup name="bark" volume="2.8" indoorVolume="0.3" range="50" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_bark_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_bark_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_bark_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_bark_04.wav" />
+        </soundGroup>
+        <soundGroup name="eat" volume="1.6" indoorVolume="0.3" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_eat_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_eat_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_eat_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_eat_04.wav" />
+        </soundGroup>
+        <soundGroup name="retrieve" volume="2.5" indoorVolume="0.3" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_retrieve_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_retrieve_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_retrieve_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_retrieve_04.wav" />
+        </soundGroup>
+        <soundGroup name="roll" volume="2.5" indoorVolume="0.3" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_roll_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_roll_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_roll_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_roll_04.wav" />
+        </soundGroup>
+        <soundGroup name="sit" volume="2.3" indoorVolume="0.3" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_01_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_01_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_01_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_01_04.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_02_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_02_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_02_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sit_breath_02_04.wav" />
+        </soundGroup>
+        <soundGroup name="sniff" volume="2.3" indoorVolume="0.3" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_sniff_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sniff_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sniff_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_sniff_04.wav" />
+        </soundGroup>
+        <soundGroup name="swim" volume="2.5" indoorVolume="0.3" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_swim_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_swim_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_swim_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_swim_04.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_swim_05.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_swim_06.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_swim_07.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_swim_08.wav" />
+        </soundGroup>
+        <soundGroup name="walk" volume="1.5" indoorVolume="0.3" range="20" innerRange="1" pitchScale="1.6">
+            <sample filename="$data/sounds/animals/dog/dog_step_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_step_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_step_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_step_04.wav" />
+        </soundGroup>
+        <soundGroup name="run" volume="1.5" indoorVolume="0.3" range="20" innerRange="1" pitchScale="2.8">
+            <sample filename="$data/sounds/animals/dog/dog_run_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_run_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_run_03.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_run_04.wav" />
+        </soundGroup>
+        <soundGroup name="yawn" volume="3.0" indoorVolume="0.3" range="50" innerRange="1">
+            <sample filename="$data/sounds/animals/dog/dog_yawn_01.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_yawn_02.wav" />
+            <sample filename="$data/sounds/animals/dog/dog_yawn_03.wav" />
+        </soundGroup>
+    </sound>
+</dog>

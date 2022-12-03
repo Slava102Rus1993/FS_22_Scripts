@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen">
+        <GuiElement type="bitmap" profile="uiElementCenter">
+
+            <GuiElement type="bitmap" profile="headerBoxDocked">
+                <GuiElement type="bitmap" profile="savegameIcon"/>
+                <GuiElement type="text" profile="headerText" text="$l10n_button_scenarios" />
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="leftScrollClipper" name="leftClipper" />
+            <GuiElement type="bitmap" profile="rightScrollClipper" name="rightClipper" />
+
+            <GuiElement type="smoothList" profile="savegameList" onDoubleClick="onStartAction" focusInit="onOpen" id="list" startClipperElementName="leftClipper" endClipperElementName="rightClipper" listDelegate="self" listDataSource="self">
+                <GuiElement type="listItem" profile="savegameListItem">
+                    <GuiElement type="bitmap" profile="savegameListItemImage" name="gameIcon"/>
+
+                    <GuiElement type="text" profile="savegameListItemHeaderText" name="title" />
+
+                    <GuiElement type="empty" profile="savegameListItemDataBox" name="dataBox" visible="true">
+
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="listItemSelector"/>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="slider" profile="sliderInvisible" id="listSlider" dataElementId="list" handleFocus="false">
+        <GuiElement type="button" profile="largeSelectorRight" />
+        <GuiElement type="button" profile="largeSelectorLeft" />
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_continue" onClick="onStartAction" id="buttonStart"/>
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+    </GuiElement>
+</GUI>

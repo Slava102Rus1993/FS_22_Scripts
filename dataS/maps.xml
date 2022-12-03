@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<maps>
+    <map id="MapUS" configFilename="$data/maps/mapUS/map.xml" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" defaultVehiclesXMLFilename="$data/maps/mapUS/vehicles.xml" defaultPlaceablesXMLFilename="$data/maps/mapUS/placeables.xml" defaultItemsXMLFilename="$data/maps/mapUS/items.xml">
+        <title>$l10n_mapUS_title</title>
+        <description>$l10n_mapUS_description</description>
+        <iconFilename>$data/maps/mapUS/preview.png</iconFilename>
+   </map>
+    <map id="MapFR" configFilename="$data/maps/mapFR/map.xml" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" defaultVehiclesXMLFilename="$data/maps/mapFR/vehicles.xml" defaultPlaceablesXMLFilename="$data/maps/mapFR/placeables.xml" defaultItemsXMLFilename="$data/maps/mapFR/items.xml">
+        <title>$l10n_mapFR_title</title>
+        <description>$l10n_mapFR_description</description>
+        <iconFilename>$data/maps/mapFR/preview.png</iconFilename>
+   </map>
+    <map id="mapAlpine" configFilename="$data/maps/mapAlpine/map.xml" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" defaultVehiclesXMLFilename="$data/maps/mapAlpine/vehicles.xml" defaultPlaceablesXMLFilename="$data/maps/mapAlpine/placeables.xml" defaultItemsXMLFilename="$data/maps/mapAlpine/items.xml">
+        <title>$l10n_mapDE_title</title>
+        <description>$l10n_mapDE_description</description>
+        <iconFilename>$data/maps/mapAlpine/preview.png</iconFilename>
+   </map>
+</maps>

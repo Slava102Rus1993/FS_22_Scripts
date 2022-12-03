@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wildlifeSpawner maxCost="100" checkTimeInterval="5.0" maxAreaOfInterest="3" areaOfInterestliveTime="8.0">
+    <area areaSpawnRadius="25" areaMaxRadius="100" spawnCircleRadius="5" >
+        <species name="crow" config="$dataS/character/animals/wild/crow.xml" classType="lightWildlife" >
+            <spawnRules>
+                <rule hourFrom="4" hourTo="19" onField="required" hasTrees="notAllowed" inWater="notAllowed" />
+            </spawnRules>
+            <cost>1</cost>
+            <minCount>1</minCount>
+            <maxCount>7</maxCount>
+            <groupSpawnRadius>5</groupSpawnRadius>
+        </species>
+    </area>
+    <area areaSpawnRadius="32" areaMaxRadius="100" spawnCircleRadius="8" >
+        <species name="deer" config="$dataS/character/animals/wild/deer.xml" classType="companionanimal" >
+            <spawnRules>
+                <rule hourFrom="1" hourTo="23" onField="dontCare" hasTrees="required" inWater="notAllowed" />
+            </spawnRules>
+            <cost>5</cost>
+            <minCount>1</minCount>
+            <maxCount>5</maxCount>
+            <groupSpawnRadius>5</groupSpawnRadius>
+        </species>
+    </area>
+</wildlifeSpawner>

@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<helpLines>
+    <category title="$l10n_helpLine_FirstSteps">
+        <page title="$l10n_helpLine_FirstSteps_Farmer">
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Farmer_general" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Farmer_agriculture_title" />
+                <text text="$l10n_helpLine_FirstSteps_Farmer_agriculture" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="0px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Farmer_animals_title" />
+                <text text="$l10n_helpLine_FirstSteps_Farmer_animals" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="290px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Farmer_forestry_title" />
+                <text text="$l10n_helpLine_FirstSteps_Farmer_forestry" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="580px 0px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FirstSteps_Start">
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Start_guidedTour" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Start_general" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FirstSteps_Shop">
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Shop_new_title" />
+                <text text="$l10n_helpLine_FirstSteps_Shop_new" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Shop_used_title" />
+                <text text="$l10n_helpLine_FirstSteps_Shop_used" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Shop_dealer_title" />
+                <text text="$l10n_helpLine_FirstSteps_Shop_dealer" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FirstSteps_StartingEquipment">
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_StartingEquipment_general" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FirstSteps_Contracts">
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Contracts_general" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FirstSteps_ConstructionMenu">
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_ConstructionMenu_geneal" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_ConstructionMenu_buildings" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="0px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_ConstructionMenu_landscaping" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="290px 206px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FirstSteps_Seasons">
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Seasons_general" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Seasons_visual_title" />
+                <text text="$l10n_helpLine_FirstSteps_Seasons_visual" />
+            </paragraph>
+            <paragraph>
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="0px 418px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Seasons_cropCalendartle_title" />
+                <text text="$l10n_helpLine_FirstSteps_Seasons_cropCalendar" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="580px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Seasons_weather_title" />
+                <text text="$l10n_helpLine_FirstSteps_Seasons_weather" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="0px 618px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Seasons_snow_title" />
+                <text text="$l10n_helpLine_FirstSteps_Seasons_snow" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="290px 618px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FirstSteps_Seasons_months_title" />
+                <text text="$l10n_helpLine_FirstSteps_Seasons_months" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FirstSteps_Worker">
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Worker_overview" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="580px 618px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Worker_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="0px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Worker_simplejobs" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="290px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Worker_combinedjobs" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-1.png" uvs="580px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FirstSteps_Worker_start" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="0px 0px 277px 200px" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_IconOverview">
+        <page title="$l10n_helpLine_IconOverview_Crops">
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_wheat" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_barley" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_canola" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="144px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_oat" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="192px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sorghum" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="240px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_maize" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="288px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sunflower" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="336px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_soybean" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="384px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_potato" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="432px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sugarBeet" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="480px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sugarCane" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="528px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_cotton" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="576px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_grape" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="624px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_olive" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="672px 0px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_grass" alignToImage="true" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_IconOverview_Greenery">
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_grass" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_dryGrass" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_straw" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="144px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_silage" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="192px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_woodChips" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="240px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sugarBeetCut" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="288px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_chaff" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="336px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_squareBaleGrass" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="384px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_roundBaleGrass" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="432px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_squareBaleDryGrass" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="480px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_roundBaleDryGrass" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="528px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_squareBale" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="576px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_roundBale" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="624px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_squareBaleCotton" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="672px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_roundBaleCotton" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="720px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_squareBaleWood" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="768px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_roundBaleWood" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="816px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_squareBaleSilage" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="864px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_roundBaleSilage" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="912px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_poplar" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="960px 48px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_wood" alignToImage="true" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_IconOverview_Animals">
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_cow" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_pig" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sheep" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="144px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_chicken" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="192px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_horse" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="240px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_egg" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="288px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_wool" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="336px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_milk" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="384px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_water" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="432px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_pigFood" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="480px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_forage_mixing" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="528px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_forage" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="576px 96px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_mineralFeed" alignToImage="true" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_IconOverview_Products">
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_flour" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_bread" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_cereal" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="144px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_cake" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="192px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sugar" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="240px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_chocolate" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="288px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_honey" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="336px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_butter" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="384px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_cheese" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="432px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_canolaOil" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="480px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_sunflowerOil" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="528px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_oliveOil" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="576px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_grapeJuice" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="624px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_raisins" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="672px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_strawberry" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="720px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_lettuce" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="768px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_tomato" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="816px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_fabric" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="864px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_clothes" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="912px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_furniture" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="960px 144px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_boards" alignToImage="true" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_IconOverview_Yield">
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_liquidFertilizer" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_fertilizer" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_herbicide" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="144px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_silageAdditive" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="192px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_digestate" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="240px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_oilRadish" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="288px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_lime" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="336px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_liquidManure" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="384px 192px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_manure" alignToImage="true" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_IconOverview_Others">
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 240px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_seeds" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 240px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_diesel" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 240px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_def" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="144px 240px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_electricCharge" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="192px 240px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_methane" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="240px 240px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_roadSalt" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="288px 240px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_stone" alignToImage="true" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_IconOverview_Shop">
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_Info" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_shop_maxPower" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_shop_neededPower" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="144px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_MaxSpeed" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="192px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_WorkingSpeed" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="240px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_fuel" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="288px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_Transmission" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="336px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_Weight" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="384px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_fillWeight" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="432px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_configuration_workingWidth" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="480px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_fillType" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="528px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_fillType_seeds" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="576px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_squareBale" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="624px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_roundBale" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="672px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_ui_ingameMenuAnimals" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="720px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_configuration_fillUnit" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="768px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_ui_combinations" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="816px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_operatingHours" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="864px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_age" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="912px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_wheels" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="960px 288px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_shop_leasedItems" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="0px 336px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_ui_licensePlate" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="48px 336px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_ui_condition" alignToImage="true" />
+            </paragraph>
+            <paragraph noSpacing="true">
+                <image filename="$dataS/menu/helpline/helplineAtlas-IconOverview-1.png" uvs="96px 336px 48px 48px" aspectRatio="1" displaySize="40px 40px" size="1024 512"/>
+                <text text="$l10n_helpLine_IconOverview_Slots" alignToImage="true" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_FarmingBasics">
+        <page title="$l10n_helpLine_FarmingBasics_ArableFarming">
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_ArableFarming_crop" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FarmingBasics_MapFilters">
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_MapFilters_general" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_FarmingBasics_MapFilters_filters_title" />
+                <text text="$l10n_helpLine_FarmingBasics_MapFilters_filters" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="290px 0px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FarmingBasics_Cultivating">
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_Cultivating_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="580px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_Cultivating_overview" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_Cultivating_harrows" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FarmingBasics_Plowing">
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_Plowing_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="0px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_Plowing_spader" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FarmingBasics_SowingPlanting">
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_SowingPlanting_sowing" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="290px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_SowingPlanting_directseeder" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="580px 206px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_FarmingBasics_Harvesting">
+            <paragraph>
+                <text text="$l10n_helpLine_FarmingBasics_Harvesting_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="0px 412px 277px 200px" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_CropOverview">
+        <page title="$l10n_helpLine_CropOverview_Grain">
+            <paragraph>
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="0px 618px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Grain_general" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Grain_straw" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_CatchCrops">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_CatchCrops_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="290px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_CatchCrops_harvest" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="580px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_Grass">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Grass_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="0px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Grass_hay" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="290px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Grass_collection" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-2.png" uvs="580px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Grass_baling" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="0px 0px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_RootCrops">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_RootCrops_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="290px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_RootCrops_processing" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="580px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_RootCrops_sugarbeetcutter" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="0px 206px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_CornSunflowers">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_CornSunflowers_general" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_CornSunflowers_machines" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="580px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_CornSunflowers_harvest" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="290px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_CornSunflowers_feed" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_Cotton">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Cotton_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="0px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Cotton_harvest" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="290px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Cotton_bale" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="580px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_Sugarcane">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Sugarcane_general" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Sugarcane_sowing" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="0px 618px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Sugarcane_growth" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Sugarcane_harvest" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="290px 618px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Sugarcane_transport" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="580px 618px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Sugarcane_tillage" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="0px 824px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_GrapesOlives">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_GrapesOlives_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="290px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_GrapesOlives_care" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-3.png" uvs="580px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_GrapesOlives_harvest" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="0px 0px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_ChaffSilage">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_ChaffSilage_chaff" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="290px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_ChaffSilage_silage" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="580px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_ChaffSilage_feed" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="0px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_ChaffSilage_silos" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="290px 206px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_CropOverview_Poplar">
+            <paragraph>
+                <text text="$l10n_helpLine_CropOverview_Poplar_general" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="580px 206px 277px 200px" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_ImproveYield">
+        <page title="$l10n_helpLine_ImproveYield_Liming">
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_LimingBonus" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_LimingSpread" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="0px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_ImproveYield_Fertilizing">
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_FertilizingBonus" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="580px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_FertilizingBuy" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="290px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_ImproveYield_RemoveWeeds">
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_RemovingWeeds" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="0px 618px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_ImproveYield_StonePicking">
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_Fieldstones" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="290px 618px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_ImproveYield_Rolling">
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_RollingBonus" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="580px 618px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_ImproveYield_Mulching">
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_MulchingGeneral" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="0px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_ImproveYield_MulchingSpecial" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_Animals">
+        <page title="$l10n_helpLine_Animals_General">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_General_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="290px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_General_Housing_title" />
+                <text text="$l10n_helpLine_Animals_General_Housing" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="0px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_General_Manure_title" />
+                <text text="$l10n_helpLine_Animals_General_Manure" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="290px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_General_Buying_title" />
+                <text text="$l10n_helpLine_Animals_General_Buying" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-4.png" uvs="580px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_General_Reproduction_title" />
+                <text text="$l10n_helpLine_Animals_General_Reproduction" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-10.png" uvs="0px 0px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_Cows">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_Cows_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="580px 0px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_Pigs">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_Pigs_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="290px 206px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_Horses">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_Horses_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="0px 206px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_Chicken">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_Chicken_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="0px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_Sheep">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_Sheep_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="580px 206px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_Bees">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_Bees_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="290px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_Dog">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_Dog_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="580px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_AnimalCare">
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_AnimalCare_Feeding_title" />
+                <text text="$l10n_helpLine_Animals_AnimalCare_Feeding" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_AnimalCare_Products_title" />
+                <text text="$l10n_helpLine_Animals_AnimalCare_Products" />
+            </paragraph>
+            <paragraph>
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="0px 618px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Animals_TMR">
+            <paragraph>
+                <text text="$l10n_helpLine_Animals_TMR_General" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_TMR_Ingredients_title" />
+                <text text="$l10n_helpLine_Animals_TMR_Ingredients" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="0px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_TMR_Robot_title" />
+                <text text="$l10n_helpLine_Animals_TMR_Robot" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="290px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Animals_TMR_MixerWagon_title" />
+                <text text="$l10n_helpLine_Animals_TMR_MixerWagon" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-5.png" uvs="580px 824px 277px 200px" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_Forestry">
+        <page title="$l10n_helpLine_Forestry_TreeTypes">
+            <paragraph>
+                <text text="$l10n_helpLine_Forestry_TreeTypes_General1" />
+            </paragraph>
+            <paragraph>
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="0px 0px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_Forestry_TreeTypes_General2" />
+            </paragraph>
+            <paragraph>
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="0px 206px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Forestry_PlantingTrees">
+            <paragraph>
+                <text text="$l10n_helpLine_Forestry_PlantingTrees_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="0px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Forestry_PlantingTrees_LandscapingTrees_title" />
+                <text text="$l10n_helpLine_Forestry_PlantingTrees_LandscapingTrees" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="290px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Forestry_FellingTrees">
+            <paragraph>
+                <text text="$l10n_helpLine_Forestry_FellingTrees_General" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Forestry_FellingTrees_Chainsaw_title" />
+                <text text="$l10n_helpLine_Forestry_FellingTrees_Chainsaw" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="580px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Forestry_FellingTrees_HarvestingMachine_title" />
+                <text text="$l10n_helpLine_Forestry_FellingTrees_HarvestingMachine" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="0px 618px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Forestry_LogsWoodChips">
+            <paragraph>
+                <text text="$l10n_helpLine_Forestry_LogsWoodChips_General" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Forestry_LogsWoodChips_Logs_title" />
+                <text text="$l10n_helpLine_Forestry_LogsWoodChips_Logs" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="290px 618px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Forestry_LogsWoodChips_WoodChips_title" />
+                <text text="$l10n_helpLine_Forestry_LogsWoodChips_WoodChips" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="580px 618px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Forestry_RemovingStumps">
+            <paragraph>
+                <text text="$l10n_helpLine_Forestry_RemovingStumps_General" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="0px 824px 277px 200px" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_Economy">
+        <page title="$l10n_helpLine_Economy_ProductionChains">
+            <paragraph>
+                <text text="$l10n_helpLine_Economy_ProductionChains_General" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_Greenshouses_title" />
+                <text text="$l10n_helpLine_Economy_ProductionChains_Greenshouses" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="290px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesGeneral_title" />
+                <text text="$l10n_helpLine_Economy_ProductionChains_FactoriesGeneral" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-6.png" uvs="580px 824px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_Bakery" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-7.png" uvs="0px 0px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_Carpentry" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-7.png" uvs="0px 206px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_Dairy" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-7.png" uvs="0px 412px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_GrainMill" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-7.png" uvs="0px 618px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_Spinnery" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-7.png" uvs="0px 824px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_SugarMill" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-8.png" uvs="0px 0px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_TailorShop" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-8.png" uvs="0px 206px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_CerealFactory" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-8.png" uvs="0px 412px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_OilMill" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-8.png" uvs="0px 618px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_ProductionChains_FactoriesList_GrapePU" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-8.png" uvs="0px 824px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Economy_MakingMoney">
+            <paragraph>
+                <text text="$l10n_helpLine_Economy_MakingMoney_General" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_MakingMoney_SupplyDemand_title" />
+                <text text="$l10n_helpLine_Economy_MakingMoney_SupplyDemand" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_MakingMoney_FinanceScreen_title" />
+                <text text="$l10n_helpLine_Economy_MakingMoney_FinanceScreen" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_MakingMoney_Contracts_title" />
+                <text text="$l10n_helpLine_Economy_MakingMoney_Contracts" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_MakingMoney_SellingMachines_title" />
+                <text text="$l10n_helpLine_Economy_MakingMoney_SellingMachines" />
+        </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Economy_SpendingMoney">
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_SpendingMoney_BuyingVehicles_title" />
+                <text text="$l10n_helpLine_Economy_SpendingMoney_BuyingVehicles" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_SpendingMoney_Workshop_title" />
+                <text text="$l10n_helpLine_Economy_SpendingMoney_Workshop" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Economy_SpendingMoney_Wear_title" />
+                <text text="$l10n_helpLine_Economy_SpendingMoney_Wear" />
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_Misc">
+        <page title="$l10n_helpLine_Misc_CharacterCustomization">
+            <paragraph>
+                <text text="$l10n_helpLine_Misc_CharacterCustomization_general" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_Misc_CharacterCustomization_clothes" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="0px 0px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Misc_Transport">
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_Transport_ByHand_title" />
+                <text text="$l10n_helpLine_Misc_Transport_ByHand" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="290px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_Transport_Pallets_title" />
+                <text text="$l10n_helpLine_Misc_Transport_Pallets" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="580px 0px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_Transport_Bales_title" />
+                <text text="$l10n_helpLine_Misc_Transport_Bales" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="0px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_Transport_Trailer_title" />
+                <text text="$l10n_helpLine_Misc_Transport_Trailer" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="290px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_Transport_Logs_title" />
+                <text text="$l10n_helpLine_Misc_Transport_Logs" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="580px 206px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_Transport_Vehicles_title" />
+                <text text="$l10n_helpLine_Misc_Transport_Vehicles" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="0px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_Transport_Train_title" />
+                <text text="$l10n_helpLine_Misc_Transport_Train" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="290px 412px 277px 200px" />
+            </paragraph>
+        </page>
+        <page title="$l10n_helpLine_Misc_LoadingMachines">
+            <paragraph>
+                <text text="$l10n_helpLine_Misc_LoadingMachines_General" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_LoadingMachines_Types_title" />
+                <text text="$l10n_helpLine_Misc_LoadingMachines_Types" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="580px 412px 277px 200px" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_LoadingMachines_Tractor_title" />
+                <text text="$l10n_helpLine_Misc_LoadingMachines_Tractor" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_helpLine_Misc_LoadingMachines_FrontLoaderVehicle_title" />
+                <text text="$l10n_helpLine_Misc_LoadingMachines_FrontLoaderVehicle" />
+            </paragraph>
+            <paragraph>
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="0px 618px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+        </page>
+    </category>
+    <category title="$l10n_helpLine_Academy">
+        <page title="$l10n_helpLine_Academy_Link">
+            <paragraph>
+                <image filename="$dataS/menu/helpline/helplineAtlas-9.png" uvs="0px 824px 1024px 200px" aspectRatio="0.2"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_Academy_Link_Text" />
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_helpLine_Academy_Link_Text_title" />
+                <image filename="$dataS/menu/helpline/helplineAtlas-10.png" uvs="290px 0px 277px 200px" />
+            </paragraph>
+        </page>
+    </category>
+</helpLines>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<animalHusbandry>
+    <animals>
+        <animal radius="0.5" handleThreats="true" threatAwarenessRadius="5" slowingDistance="0.1" allowMilkingPlace="false" headOffset="0" canEat="false" canDrink="false" canSleep="true" canEatDuringNight="false">
+            <statesTimers idleMin="12000" idleMax="18000" sleepMin="120000" sleepMax="180000" restMin="20000" restMax="30000" grazeMin="8000" grazeMax="16000" chewMin="8000" chewMax="16000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="20000" />
+            <assets filename="$dataS/character/animals/domesticated/chicken/hen/fowlHen.i3d" filenamePosed="$dataS/character/animals/domesticated/chicken/hen/fowlHen_posed.i3d" animation="$dataS/character/animals/domesticated/chicken/animations/adult/fowlAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" shaderIndex="1|2" >
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="henLocomotion.xml"/>
+            <audio yellSoundGroup="yellHen" yellMinInterval="8000" yellMaxInterval="16000" yellTimerCrowdScale="0.1" />
+        </animal>
+
+        <animal radius="0.5" handleThreats="true" threatAwarenessRadius="7" slowingDistance="0.1" allowMilkingPlace="false" headOffset="0" canEat="false" canDrink="false" canSleep="true" canEatDuringNight="false">
+            <statesTimers idleMin="18000" idleMax="22000" sleepMin="120000" sleepMax="180000" restMin="16000" restMax="18000" grazeMin="12000" grazeMax="18000" chewMin="8000" chewMax="16000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="20000" />
+            <assets filename="$dataS/character/animals/domesticated/chicken/rooster/fowlRooster.i3d" filenamePosed="$dataS/character/animals/domesticated/chicken/rooster/fowlRooster_posed.i3d" animation="$dataS/character/animals/domesticated/chicken/animations/adult/fowlAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" shaderIndex="1|2">
+                <texture multi="false" tileUIndex="0" tileVIndex="0" numTilesU="1" numTilesV="1" mirrorV="false" />
+            </assets>
+            <locomotion filename="roosterLocomotion.xml"/>
+            <audio yellSoundGroup="yellRooster" yellMinInterval="20000" yellMaxInterval="40000" yellTimerCrowdScale="0.5" />
+        </animal>
+    </animals>
+    <sound>
+        <soundGroup name="walk" volume="0.65" indoorVolume="0.1" range="12" innerRange="0.4">
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_1.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_2.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_3.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_4.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_5.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_6.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_7.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_8.wav"/>
+        </soundGroup>
+        <soundGroup name="run" volume="0.65" indoorVolume="0.1" range="12" innerRange="0.4">
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_1.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_2.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_3.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_4.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_5.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_6.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_7.wav"/>
+            <sample filename="$data/sounds/animals/chicken/chicken_step_grass_8.wav"/>
+        </soundGroup>
+       <soundGroup name="yellHen" volume="2.0" indoorVolume="0.2" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/chicken/hen_01.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_02.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_03.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_04.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_05.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_06.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_07.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_08.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_09.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_10.wav" />
+            <sample filename="$data/sounds/animals/chicken/hen_11.wav" />
+        </soundGroup>
+        <soundGroup name="yellRooster" volume="2.0" indoorVolume="0.2" range="40" innerRange="1">
+            <sample filename="$data/sounds/animals/chicken/rooster_01.wav" />
+            <sample filename="$data/sounds/animals/chicken/rooster_02.wav" />
+        </soundGroup>
+    </sound>
+</animalHusbandry>

@@ -1,0 +1,51 @@
+Debug console commands:
+gsVehicleDebug 5                than F5 in the game - Debug view for engine IKchains, when player in the vehicle 
+gsToggleFlightAndNoHUDMode      Enables/disables the flight (J) and no HUD (O) toggle keys
+gsToggleWoodCuttingMaker        Enables/disables chainsaw woodcutting marker
+gsTogglePlayerDebug	            Enables/disables player debug information (gamepad input)
+gsTogglePlayerThirdPerson       Enables/disables player third person view
+gsReloadIKChains                Reloads IKChains
+gsToggleSuperStrength           Enables/disables player super strength
+gsToggleDebugStateJump          Toggle debug mode for Jump
+gsToggleDebugPlayerFSM          Enables/disables state machine debug mode
+
+aniamtions from player01.xml
+idle_Source
+turnLt90_Loop_Source
+turnRt90_Loop_Source
+walkFwdLoop_LeanR_Source
+walkFwdLoop_LeanL_Source
+walkBwdLoop_Source
+runFwdLoop_LeanR_Source
+runFwdLoop_LeanL_Source
+runBwdLoop_Source
+jumpIdleStart_Source
+jumpIdleLand_Source
+crouchIdle_Source
+crouchWalkFwdLoop_Source
+crouchWalkBwdLoop_Source
+jumpLoop_Source
+swimIdle_Source
+swimFwdLoop_Source
+swimBwdLoop_Source
+chainsaw_cutSideways_Source
+chainsaw_cutVertical_Source
+
+animations from horse.xml
+horseJumpUp_Source
+horseJumpFlight_Source
+horseJumpLand_Source
+horseIdle01_Source
+horseInplaceLeft45deg_Source
+horseInplaceRight45deg_Source
+horseWalkRight_Source
+horseWalkLeft_Source
+horseTrotRight_Source
+horseTrotLeft_Source
+horseCanterRight_Source
+horseCanterLeft_Source
+horseGallopRight_Source
+horseGallopLeft_Source
+horseWalkBackRight_Source
+horseWalkBackLeft_Source
+horseStop_Source

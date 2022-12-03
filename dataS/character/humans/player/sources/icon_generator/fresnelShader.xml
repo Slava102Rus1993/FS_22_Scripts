@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomShader version="5">
+    <Parameters>
+        <Parameter name = "colorScale"   target = "colorScale"   type = "float3" group="base"  defaultValue = "1.0 1.0 1.0"    minValue = "0 0 0" maxValue = "1 1 1"/>
+    </Parameters>
+    <UvUsages/>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+            <CodeInjection position="FINAL_POS_FS">
+<![CDATA[
+    oColor.xyz = diffuseColor.rgb + getFresnel( facing, 0.15 , 4.0 );
+    oColor.w = 0.75;
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

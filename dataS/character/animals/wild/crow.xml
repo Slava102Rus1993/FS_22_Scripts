@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wildlifeAnimal type="crow" randomSpawnRadius="10.0" >
+    <asset filename="dataS/character/animals/wild/crow/crow.i3d" >
+    </asset>
+    <animations shaderNode="0" shaderParameterId="animOffset" shaderParameterOpcode="indicesAndBlend" shaderParameterSpeed="speeds" >
+        <animation opcode="0" speed="0.4" transitionTimer="0.15" conditionState="fly_glide" />
+        <animation opcode="1" speed="4.0" transitionTimer="0.15" conditionState="fly" />
+        <animation opcode="1" speed="4.0" transitionTimer="0.15" conditionState="flyUp" />
+        <animation opcode="0" speed="0.4" transitionTimer="0.15" conditionState="flyDown" />
+        <animation opcode="1" speed="4.0" transitionTimer="0.15" conditionState="flyDownFlapping" />
+        <animation opcode="2" speed="3.0" transitionTimer="0.15" conditionState="land" />
+        <animation opcode="3" speed="4.0" transitionTimer="0.15" conditionState="takeOff" />
+        <animation opcode="4" speed="3.0" transitionTimer="0.15" conditionState="idle_walk" />
+        <animation opcode="5" speed="2.0" transitionTimer="0.15" conditionState="idle_eat" />
+        <animation opcode="6" speed="1.0" transitionTimer="0.15" conditionState="idle_attention" />
+    </animations>
+    <sounds>
+        <flyAways>
+            <flyAway file="$data/sounds/animals/crow/crowsFlyAway1.wav" linkNode="0>" innerRadius="3.0" outerRadius="70.0">
+                <volume indoor="0.2" outdoor="1.7" />
+                <pitch indoor="1.00" outdoor="1.00" />
+                <lowpassGain indoor="0.10" outdoor="1.00" />
+            </flyAway>
+            <flyAway file="$data/sounds/animals/crow/crowsFlyAway2.wav" linkNode="0>" innerRadius="3.0" outerRadius="70.0">
+                <volume indoor="0.2" outdoor="1.7" />
+                <pitch indoor="1.00" outdoor="1.00" />
+                <lowpassGain indoor="0.10" outdoor="1.00" />
+            </flyAway>
+        </flyAways>
+        <!-- <calmGrounds> -->
+            <!-- <calmGround file="$data/sounds/animals/crow/crow_oneshot_01.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+                <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+                <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+                <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+            <!-- </calmGround> -->
+            <!-- <calmGround file="$data/sounds/animals/crow/crow_oneshot_02.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+                <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+                <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+                <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+            <!-- </calmGround> -->
+            <!-- <calmGround file="$data/sounds/animals/crow/crow_oneshot_03.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+                <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+                <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+                <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+            <!-- </calmGround> -->
+            <!-- <calmGround file="$data/sounds/animals/crow/crow_oneshot_04.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+                <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+                <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+                <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+            <!-- </calmGround> -->
+            <!-- <calmGround file="$data/sounds/animals/crow/crow_oneshot_05.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+                <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+                <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+                <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+            <!-- </calmGround> -->
+            <!-- <calmGround file="$data/sounds/animals/crow/crow_oneshot_06.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+                <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+                <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+                <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+            <!-- </calmGround> -->
+        <!-- </calmGrounds> -->
+        <!-- <busy file="$data/sounds/animals/crow/crow_flock_busy_01_loop.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+            <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+            <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+            <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+        <!-- </busy> -->
+        <!-- <calmAir file="$data/sounds/animals/crow/crow_flock_calm_01_loop.wav" linkNode="0>" innerRadius="1.0" outerRadius="60.0"> -->
+            <!-- <volume indoor="1.5" outdoor="1.5" /> -->
+            <!-- <pitch indoor="1.00" outdoor="1.00" /> -->
+            <!-- <lowpassGain indoor="0.50" outdoor="1.00" /> -->
+        <!-- </calmAir> -->
+    </sounds>
+</wildlifeAnimal>

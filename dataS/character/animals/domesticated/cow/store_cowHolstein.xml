@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="placeable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>Cow Holstein</name>
+        <image>$dataS/character/animals/domesticated/cow/store_cowHolstein.dds</image>
+        <price>0</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>fences</category>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <vertexBufferMemoryUsage>119552</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>34048</indexBufferMemoryUsage>
+        <textureMemoryUsage>786432</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+
+        <storeIconRendering>
+            <settings centerIcon="true" cameraXRot="-15" cameraYRot="50" advancedBoundingBox="true" lightIntensity="2.5"/>
+            <shaderParameter name="RDT" values="- 0 - -" />
+            <shaderParameter name="atlasInvSizeAndOffsetUV" values="- - 0 0.5" />
+        </storeIconRendering>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>$dataS/character/animals/domesticated/cow/holstein/cattleHolstein_posed.i3d</filename>
+    </base>
+</placeable>

@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="horse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>Horse</name>
+        <specs>
+            <power>1</power>
+            <maxSpeed>50</maxSpeed>
+        </specs>
+        <functions>
+            <function>$l10n_function_tractor</function>
+        </functions>
+        <image>data/store/store_empty.png</image>
+        <price>10</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <showInStore>false</showInStore>
+        <category>animals</category>
+        <canBeSold>false</canBeSold>
+        <vertexBufferMemoryUsage>882688</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>176384</indexBufferMemoryUsage>
+        <textureMemoryUsage>2031616</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>Horse</typeDesc>
+        <filename>$dataS/character/animals/domesticated/horse/horse.i3d</filename>
+        <supportsRadio>false</supportsRadio>
+        <size width="2" length="3"/>
+        <tailwaterDepth warning="0.5" threshold="1.1" />
+        <components>
+            <component centerOfMass="0 0 0" solverIterationCount="20" mass="400" />
+        </components>
+        <showInVehicleMenu>false</showInVehicleMenu>
+        <mapHotspot type="HORSE" hasDirection="false" />
+    </base>
+
+    <enterable isTabbable="true" >
+        <enterReferenceNode node="horse_main_component1" />
+        <exitPoint node="exitPoint" />
+
+        <cameras>
+            <camera node="outdoorCamera" rotatable="true" rotateNode="outdoorCameraTarget" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="-0.1" transMin="4" transMax="40" >
+                <raycastNode node="cameraRaycastNode1"/>
+                <raycastNode node="cameraRaycastNode2"/>
+            </camera>
+        </cameras>
+
+        <characterNode node="skeleton" cameraMinDistance="1.5" spineRotation="270 0 90" useAnimation="true" />
+    </enterable>
+
+    <cctDrivable cctHeight="1" cctRadius="1.25" cctStepOffset="0.15" cctSlopeLimit="0" customOffset="-0.2"/> <!-- total height 2.7m -->
+
+    <washable fieldMultiplier="100.0" blockedWashTypes="HIGH_PRESSURE_WASHER" />
+
+    <rideable proxy="proxy" speedBackwards="-1.45" speedWalk="1.08" speedTrot="2.5" speedCanter="5.0" speedGallop="10.0" turnSpeed="40" jumpHeight="2.0" minTurnRadiusBackwards="3.5" minTurnRadiusWalk="3.5" minTurnRadiusTrot="3.5" minTurnRadiusCanter="3.5" minTurnRadiusGallop="3.5" >
+        <modelInfo animationNode="Root_M" meshNode="geo" equipmentNode="saddle" reinsNode="reins" reinRightNode="reinRight" reinLeftNode="reinLeft" >
+            <hoofFrontLeft node="hoofFrontLeft">
+                <particleSystemSlow node="emitterShapeSlowFrontLeft" particleType="horse_step_slow" />
+                <particleSystemFast node="emitterShapeFastFrontLeft" particleType="horse_step_fast" />
+            </hoofFrontLeft>
+            <hoofFrontRight node="hoofFrontRight">
+                <particleSystemSlow node="emitterShapeSlowFrontRight" particleType="horse_step_slow" />
+                <particleSystemFast node="emitterShapeFastFrontRight" particleType="horse_step_fast" />
+            </hoofFrontRight>
+            <hoofBackLeft node="hoofBackLeft">
+                <particleSystemSlow node="emitterShapeSlowBackLeft" particleType="horse_step_slow" />
+                <particleSystemFast node="emitterShapeFastBackLeft" particleType="horse_step_fast" />
+            </hoofBackLeft>
+            <hoofBackRight node="hoofBackRight">
+                <particleSystemSlow node="emitterShapeSlowBackRight" particleType="horse_step_slow" />
+                <particleSystemFast node="emitterShapeFastBackRight" particleType="horse_step_fast" />
+            </hoofBackRight>
+        </modelInfo>
+        <sounds breathIntervalNoEffort="4.0" breathIntervalEffort="2.7" minBreathIntervalIdle="4.0" maxBreathIntervalIdle="7.0" >
+            <halt file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_neigh_5.wav" linkNode="0>" innerRadius="5.0" outerRadius="45.0">
+                <volume indoor="1.0" outdoor="1.0" />
+                <pitch indoor="0.9" outdoor="0.9" />
+                <lowpassGain indoor="0.0" outdoor="0.0" />
+            </halt>
+            <breathingEffort file="$data/sounds/animals/horse/rideable/vocalization/horse_breath_run_1.wav" linkNode="0>" innerRadius="0.65" outerRadius="15.0" >
+                <volume indoor="0.3" outdoor="0.5" />
+                <pitch indoor="0.9" outdoor="0.9" />
+                <lowpassGain indoor="0.0" outdoor="0.0" />
+                <randomization minVolume="0.0" maxVolume="0.01" minPitch="0.0" maxPitch="0.2" minLowpassGain="0" maxLowpassGain="0" />
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_breath_run_2.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_breath_run_3.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_breath_run_4.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_breath_5.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_breath_run_5.wav"/>
+            </breathingEffort>
+            <breathingNoEffort file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_breath_1.wav" linkNode="0>" innerRadius="0.65" outerRadius="15.0" >
+                <volume indoor="0.3" outdoor="0.5" />
+                <pitch indoor="0.9" outdoor="0.9" />
+                <lowpassGain indoor="0.0" outdoor="0.0" />
+                <randomization minVolume="0.0" maxVolume="0.01" minPitch="0.0" maxPitch="0.2" minLowpassGain="0" maxLowpassGain="0" />
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_breath_2.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_breath_3.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_breath_4.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_breath_5.wav"/>
+                <sourceRandomization file="$data/sounds/animals/horse/rideable/vocalization/horse_vocalization_breath_6.wav"/>
+            </breathingNoEffort>
+        </sounds>
+    </rideable>
+
+    <suspensions>
+        <suspension node="0>0|0|2|0|2" weight="90" minTranslation="0.0 -0.45 0.0" maxTranslation="0.0 0.45 0.0" suspensionParametersX="20 4" suspensionParametersY="5 1" suspensionParametersZ="20 4" />
+    </suspensions>
+
+    <foliageBending>
+        <bendingNode minX="-0.4" maxX="0.4" minZ="-1.0" maxZ="0.85" yOffset="0.1" />
+    </foliageBending>
+
+    <conditionalAnimation>
+        <item id="jumpStart" entryTransitionDuration="0.1" exitTransitionDuration="0.35" >
+            <clips>
+                <clip clipName="jumpUpSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="false" />
+                    <condition parameter="verticalVelocity" greater="0.1" />
+                    <condition parameter="closeToGround" equal="true" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="jumpLoop" entryTransitionDuration="0.35" exitTransitionDuration="0.2" >
+            <clips>
+                <clip clipName="jumpFlightSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="false" />
+                    <condition parameter="closeToGround" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="jumpEnd" entryTransitionDuration="0.1" exitTransitionDuration="0.1" >
+            <clips>
+                <clip clipName="jumpLandSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="false" />
+                    <condition parameter="verticalVelocity" lower="-0.1" />
+                    <condition parameter="closeToGround" equal="true" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="idle" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips>
+                <clip clipName="idle01Source" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="yawVelocity" between="-0.005, 0.005" />
+                    <condition parameter="absSmoothedForwardVelocity" lower="0.01" />
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="inPlaceLeft" entryTransitionDuration="0.1" exitTransitionDuration="0.1" >
+            <clips speedScaleType="angular" speedScaleParameter="45">
+                <clip id="inPlaceL" clipName="inplaceLeft45degSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="absSmoothedForwardVelocity" lower="0.01" />
+                    <condition parameter="yawVelocity" greater="0.005" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="inPlaceRight" entryTransitionDuration="0.1" exitTransitionDuration="0.1" >
+            <clips speedScaleType="angular" speedScaleParameter="45">
+                <clip id="inPlaceR" clipName="inplaceRight45degSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="absSmoothedForwardVelocity" lower="0.01" />
+                    <condition parameter="yawVelocity" lower="-0.005" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="walk" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="1.28">
+                <clip id="walkR" clipName="walkRightSource" blendingThreshold="-1.0" />
+                <clip id="walkL" clipName="walkLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" between="0.01, 1.7"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="trot" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="2.26">
+                <clip id="trotR" clipName="trotRightSource" blendingThreshold="-1.0" />
+                <clip id="trotL" clipName="trotLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" between="1.7, 3.7"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="canter" entryTransitionDuration="0.25" exitTransitionDuration="0.5" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="3.03">
+                <clip id="canterR" clipName="canterRightSource" blendingThreshold="-1.0" />
+                <clip id="canterL" clipName="canterLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" between="3.7, 7.0"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="gallop" entryTransitionDuration="1.0" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="6.09">
+                <clip id="gallopR" clipName="gallopRightSource" blendingThreshold="-1.0" />
+                <clip id="gallopL" clipName="gallopLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" greater="7.0"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="walkBack" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="1.44">
+                <clip id="walkBL" clipName="walkBackRightSource" blendingThreshold="-1.0" />
+                <clip id="walkBR" clipName="walkBackLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="smoothedForwardVelocity" lower="-0.01" />
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="halt" entryTransitionDuration="0.0" >
+            <clips>
+                <clip clipName="stopSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="halted" equal="true" />
+                    <condition parameter="onGround" equal="true" />
+                </conditionGroup>
+            </conditions>
+        </item>
+    </conditionalAnimation>
+    <!-- riderConditionalAnimation has to be identical to conditionalAnimation; clipName only has to differ -->
+    <riderConditionalAnimation>
+        <item id="jumpStart" entryTransitionDuration="0.1" exitTransitionDuration="0.35" >
+            <clips>
+                <clip clipName="horseJumpUpSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="false" />
+                    <condition parameter="verticalVelocity" greater="0.1" />
+                    <condition parameter="closeToGround" equal="true" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="jumpLoop" entryTransitionDuration="0.35" exitTransitionDuration="0.2" >
+            <clips>
+                <clip clipName="horseJumpFlightSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="false" />
+                    <condition parameter="closeToGround" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="jumpEnd" entryTransitionDuration="0.1" exitTransitionDuration="0.1" >
+            <clips>
+                <clip clipName="horseJumpLandSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="false" />
+                    <condition parameter="verticalVelocity" lower="-0.1" />
+                    <condition parameter="closeToGround" equal="true" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="idle" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips>
+                <clip clipName="horseIdle01Source" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="yawVelocity" between="-0.005, 0.005" />
+                    <condition parameter="absSmoothedForwardVelocity" lower="0.01" />
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="inPlaceLeft" entryTransitionDuration="0.1" exitTransitionDuration="0.1" >
+            <clips speedScaleType="angular" speedScaleParameter="45">
+                <clip id="inPlaceL" clipName="horseInplaceLeft45degSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="absSmoothedForwardVelocity" lower="0.01" />
+                    <condition parameter="yawVelocity" greater="0.005" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="inPlaceRight" entryTransitionDuration="0.1" exitTransitionDuration="0.1" >
+            <clips speedScaleType="angular" speedScaleParameter="45">
+                <clip id="inPlaceR" clipName="horseInplaceRight45degSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="absSmoothedForwardVelocity" lower="0.01" />
+                    <condition parameter="yawVelocity" lower="-0.005" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="walk" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="1.28">
+                <clip id="walkR" clipName="horseWalkRightSource" blendingThreshold="-1.0" />
+                <clip id="walkL" clipName="horseWalkLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" between="0.01, 1.7"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="trot" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="2.26">
+                <clip id="trotR" clipName="horseTrotRightSource" blendingThreshold="-1.0" />
+                <clip id="trotL" clipName="horseTrotLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" between="1.7, 3.7"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="canter" entryTransitionDuration="0.25" exitTransitionDuration="0.5" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="3.03">
+                <clip id="canterR" clipName="horseCanterRightSource" blendingThreshold="-1.0" />
+                <clip id="canterL" clipName="horseCanterLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" between="3.7, 7.0"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="gallop" entryTransitionDuration="1.0" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="6.09">
+                <clip id="gallopR" clipName="horseGallopRightSource" blendingThreshold="-1.0" />
+                <clip id="gallopL" clipName="horseGallopLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="smoothedForwardVelocity" greater="7.0"/>
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="walkBack" entryTransitionDuration="0.25" exitTransitionDuration="0.25" >
+            <clips blended="true" blendingParameter="leftRightWeight" blendingParameterType="distance" speedScaleType="distance" speedScaleParameter="1.44">
+                <clip id="walkBL" clipName="horseWalkBackRightSource" blendingThreshold="-1.0" />
+                <clip id="walkBR" clipName="horseWalkBackLeftSource" blendingThreshold="1.0" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="smoothedForwardVelocity" lower="-0.01" />
+                    <condition parameter="onGround" equal="true" />
+                    <condition parameter="halted" equal="false" />
+                </conditionGroup>
+            </conditions>
+        </item>
+        <item id="halt" entryTransitionDuration="0.0" >
+            <clips>
+                <clip clipName="horseStopSource" />
+            </clips>
+            <conditions>
+                <conditionGroup>
+                    <condition parameter="halted" equal="true" />
+                    <condition parameter="onGround" equal="true" />
+                </conditionGroup>
+            </conditions>
+        </item>
+    </riderConditionalAnimation>
+
+    <i3dMappings>
+        <i3dMapping id="horse_main_component1" node="0>" />
+        <i3dMapping id="skeleton" node="0>0" />
+        <i3dMapping id="Root_M" node="0>0|0" />
+        <i3dMapping id="hoofBackRight" node="0>0|0|0|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeSlowBackRight" node="0>0|0|0|0|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeFastBackRight" node="0>0|0|0|0|0|0|0|0|1" />
+        <i3dMapping id="hoofFrontRight" node="0>0|0|2|0|0|0|0|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeFastFrontRight" node="0>0|0|2|0|0|0|0|0|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeSlowFrontRight" node="0>0|0|2|0|0|0|0|0|0|0|0|0|1" />
+        <i3dMapping id="reinLeft" node="0>0|0|2|0|0|1|0|0|0|13|0|0|0" />
+        <i3dMapping id="reinRight" node="0>0|0|2|0|0|1|0|0|0|14|0|0|0" />
+        <i3dMapping id="hoofFrontLeft" node="0>0|0|2|0|0|2|0|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeSlowFrontLeft" node="0>0|0|2|0|0|2|0|0|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeFastFrontLeft" node="0>0|0|2|0|0|2|0|0|0|0|0|0|1" />
+        <i3dMapping id="hoofBackLeft" node="0>0|0|3|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeSlowBackLeft" node="0>0|0|3|0|0|0|0|0|0" />
+        <i3dMapping id="emitterShapeFastBackLeft" node="0>0|0|3|0|0|0|0|0|1" />
+        <i3dMapping id="outdoorCameraTarget" node="0>1|0" />
+        <i3dMapping id="outdoorCamera" node="0>1|0|0" />
+        <i3dMapping id="cameraRaycastNode1" node="0>1|1" />
+        <i3dMapping id="cameraRaycastNode2" node="0>1|2" />
+        <i3dMapping id="indoorCamera" node="0>1|3" />
+        <i3dMapping id="shadowFocusBox" node="0>1|4" />
+        <i3dMapping id="exitPoint" node="0>2" />
+        <i3dMapping id="geo" node="0>3" />
+        <i3dMapping id="saddle" node="0>3|1" />
+        <i3dMapping id="reins" node="0>3|2" />
+        <i3dMapping id="proxy" node="0>4" />
+    </i3dMappings>
+</vehicle>

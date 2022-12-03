@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<animalHusbandry>
+    <animals>
+        <!-- landrace -->
+        <animal radius="1.2" handleThreats="false" threatAwarenessRadius=".5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.4" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="false">
+            <statesTimers idleMin="6000" idleMax="12000" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="15000" grazeMin="18000" grazeMax="30000" chewMin="15000" chewMax="20000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="25000" />
+            <assets filename="$dataS/character/animals/domesticated/pig/sow/pigSow.i3d" filenamePosed="$dataS/character/animals/domesticated/pig/sow/pigSow_posed.i3d" animation="$dataS/character/animals/domesticated/pig/animations/adult/pigAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0">
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- black pied -->
+        <animal radius="1.2" handleThreats="false" threatAwarenessRadius=".5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.4" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="false">
+            <statesTimers idleMin="6000" idleMax="12000" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="15000" grazeMin="18000" grazeMax="30000" chewMin="15000" chewMax="20000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="25000" />
+            <assets filename="$dataS/character/animals/domesticated/pig/sow/pigSow.i3d" filenamePosed="$dataS/character/animals/domesticated/pig/sow/pigSow_posed.i3d" animation="$dataS/character/animals/domesticated/pig/animations/adult/pigAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0">
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- berkshire -->
+        <animal radius="1.2" handleThreats="false" threatAwarenessRadius=".5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.4" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="false">
+            <statesTimers idleMin="6000" idleMax="12000" sleepMin="120000" sleepMax="180000" restMin="60000" restMax="90000" grazeMin="18000" grazeMax="30000" chewMin="15000" chewMax="20000" eatMin="60000" eatMax="90000" wanderMin="10000" wanderMax="25000" />
+            <assets filename="$dataS/character/animals/domesticated/pig/sow/pigSow.i3d" filenamePosed="$dataS/character/animals/domesticated/pig/sow/pigSow_posed.i3d" animation="$dataS/character/animals/domesticated/pig/animations/adult/pigAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0">
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+    </animals>
+    <sound>
+       <soundGroup name="yell" volume="2.1" indoorVolume="0.3" range="50" innerRange="1">
+            <sample filename="$data/sounds/animals/pig/pig_01.wav" />
+            <sample filename="$data/sounds/animals/pig/pig_02.wav" />
+            <sample filename="$data/sounds/animals/pig/pig_03.wav" />
+            <sample filename="$data/sounds/animals/pig/pig_04.wav" />
+            <sample filename="$data/sounds/animals/pig/pig_05.wav" />
+            <sample filename="$data/sounds/animals/pig/pig_06.wav" />
+            <sample filename="$data/sounds/animals/pig/pig_07.wav" />
+            <sample filename="$data/sounds/animals/pig/pig_08.wav" />
+        </soundGroup>
+       <soundGroup name="eat" volume="0.15" indoorVolume="0.01" range="20" innerRange="1">
+            <sample filename="$data/sounds/animals/pig/pig_eat_loop.wav" />
+        </soundGroup>
+        <soundGroup name="walk" volume="0.85" indoorVolume="0.1" range="12" innerRange="0.4">
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_1.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_2.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_3.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_4.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_5.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_6.wav"/>
+        </soundGroup>
+    </sound>
+</animalHusbandry>

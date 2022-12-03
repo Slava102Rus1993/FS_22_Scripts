@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<animalHusbandry>
+    <animals milkRobotSoundGroup="milkRobot" milkRobotDoorSoundGroup="milkRobotDoor">
+        <!-- Swiss brown -->
+        <animal radius="1.8" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="5000" wanderMax="10000" />
+            <assets filename="$dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d" filenamePosed="$dataS/character/animals/domesticated/cow/holstein/cattleHolstein_posed.i3d" animation="$dataS/character/animals/domesticated/cow/animations/adult/cattleAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0|0" headIndex="0>0|0|0|0|0|0|0|0" >
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- Holstein -->
+        <animal radius="1.8" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="5000" wanderMax="10000" />
+            <assets filename="$dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d" filenamePosed="$dataS/character/animals/domesticated/cow/holstein/cattleHolstein_posed.i3d" animation="$dataS/character/animals/domesticated/cow/animations/adult/cattleAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0|0" headIndex="0>0|0|0|0|0|0|0|0" >
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- Angus -->
+        <animal radius="1.8" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="5000" wanderMax="10000" />
+            <assets filename="$dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d" filenamePosed="$dataS/character/animals/domesticated/cow/angus/cattleAngus_posed.i3d" animation="$dataS/character/animals/domesticated/cow/animations/adult/cattleAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0|0" headIndex="0>0|0|0|0|0|0|0|0" >
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="1" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+        <!-- Limousin -->
+        <animal radius="1.8" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="5000" wanderMax="10000" />
+            <assets filename="$dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d" filenamePosed="$dataS/character/animals/domesticated/cow/angus/cattleAngus_posed.i3d" animation="$dataS/character/animals/domesticated/cow/animations/adult/cattleAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0|0" headIndex="0>0|0|0|0|0|0|0|0" >
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="1" mirrorV="false" />
+            </assets>
+            <locomotion filename="locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2" />
+        </animal>
+    </animals>
+    <sound>
+        <soundGroup name="walk" volume="1" indoorVolume="0.1" range="12" innerRange="0.4">
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_1.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_2.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_3.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_4.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_5.wav"/>
+            <sample filename="$data/sounds/animals/pig/pig_step_grass_6.wav"/>
+        </soundGroup>
+        <soundGroup name="eat" volume="0.9" indoorVolume="0.03" range="20" innerRange="1">
+            <sample filename="$data/sounds/animals/cow/cow_eat_loop.wav" />
+        </soundGroup>
+        <soundGroup name="milkRobot" volume="0.8" indoorVolume="0.1" range="40" innerRange="8">
+            <sample filename="$data/sounds/tools/milkrobot/milkrobot_work_loop.wav" />
+        </soundGroup>
+        <soundGroup name="milkRobotDoor" volume="0.8" indoorVolume="0.1" range="40" innerRange="8">
+            <sample filename="$data/sounds/tools/milkrobot/milkrobot_door_01.wav" />
+        </soundGroup>
+        <soundGroup name="yell" volume="2.0" indoorVolume="0.3" volumeRandMin="-0.1" volumeRandMax="0.1" range="50" innerRange="1" pitch="1" pitchRandMin="-0.1" pitchRandMax="0.1">
+            <sample filename="$data/sounds/animals/cow/cow_01.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_02.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_03.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_04.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_05.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_06.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_07.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_08.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_09.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_10.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_11.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_12.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_13.wav" />
+            <sample filename="$data/sounds/animals/cow/cow_14.wav" />
+        </soundGroup>
+    </sound>
+</animalHusbandry>

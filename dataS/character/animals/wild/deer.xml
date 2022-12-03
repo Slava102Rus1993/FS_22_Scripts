@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wildlifeAnimal type="deer" maxDistanceToSpawn="10.0" randomSpawnRadius="10.0">
+    <asset filename="dataS/character/animals/wild/deer/deerAdult.i3d" skeletonNode="0" meshNode="1" >
+        <texture multi="true" tileU="2" tileV="2" mirrorV="false" />
+    </asset>
+    <animation>
+        <states>
+            <state id="walk">
+                <animation id="walk1" clipLeft="walkLeftSource" clipRight="walkRightSource" rotation="85" distance="0.9" />
+            </state>
+            <state id="run">
+                <animation id="run1" clipLeft="runLeftSource" clipRight="runRightSource" rotation="30" speed="1.0" distance="3.25" />
+            </state>
+            <state id="idle">
+                <animation id="idle1" clip="idleSource" speed="1.0" />
+            </state>
+            <state id="eat">
+                <animation id="eat1" clip="eatSource" speed="1.0" />
+            </state>
+            <state id="attention">
+                <animation id="attention1" clip="attentionSource" speed="1.0" />
+            </state>
+            <state id="scratching">
+                <animation id="scratching1" clip="scratchingSource" speed="1.0" />
+            </state>
+        </states>
+        <transitions defaultBlendTime="750">
+        </transitions>
+    </animation>
+    <sounds>
+    </sounds>
+</wildlifeAnimal>

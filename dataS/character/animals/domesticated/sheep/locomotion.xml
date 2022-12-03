@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<locomotion>
+    <general suddenStopTime="400" />
+    <speed walk="1.0" run="5" walkRunThreshold="3" minimum="1" />
+    <wander circleDistance="3" circleRadius="1" jitter="6" />
+    <avoidance wallCircleRadius="2" wallCircleDistance="2" detectionDistance="4" maxAnimalForce="5" maxWallForce="8" />
+    <animation filename="animation.xml" />
+</locomotion>
