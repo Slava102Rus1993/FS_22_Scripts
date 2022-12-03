@@ -1,2 +1,2 @@
 # FS_22_Scripts
- All ccript files in game/dlc
+ All script files in game/dlc
